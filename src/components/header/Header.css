@@ -1,0 +1,83 @@
+.header {
+  align-items: center;
+  background-color: #7846aa;
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  min-height: var(--header-size);
+  z-index: 10;
+  width: 100vw;
+}
+
+.header__nav {
+  align-items: center;
+  color: rgba(255, 255, 255, 0.95);
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  justify-content: space-evenly;
+  width: 75%;
+}
+
+.header__logo {
+  font-weight: 900;
+  flex-basis: 15%;
+  text-transform: uppercase;
+}
+
+.header__items {
+  display: flex;
+  flex-basis: 60%;
+  justify-content: flex-start;
+}
+
+.header__item {
+  cursor: pointer;
+  padding: 0 1.5rem;
+  position: relative;
+}
+
+.header__item > a {
+  text-decoration: none;
+}
+
+.header__item > a:before {
+  background: white;
+  bottom: 0;
+  content: '';
+  height: 2px;
+  left: 10px;
+  position: absolute;
+  transform: scaleX(0);
+  transition: 0.25s linear;
+  visibility: hidden;
+  width: 75%; /* 100% with left: 0*/
+}
+
+.header__item > a:hover:before,
+.header__item > a:focus:before {
+  transform: scaleX(1);
+  visibility: visible;
+}
+
+.header__icons {
+  align-items: center;
+  display: flex;
+  flex-basis: 25%;
+  justify-content: center;
+}
+
+.header__icon {
+  height: 2.5rem;
+  padding: 0 0.5rem;
+  transition: transform 0.5s cubic-bezier(0.6, -0.505, 0.51, 1.65);
+}
+
+.header__icon:hover {
+  transform: scale(1.2);
+}
+
+.header__icon img {
+  height: inherit;
+}

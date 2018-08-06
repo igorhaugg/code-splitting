@@ -1,0 +1,5 @@
+.contact {
+  background-color: #007472;
+  min-height: calc(100vh - var(--header-size));
+  min-width: 100vw;
+}

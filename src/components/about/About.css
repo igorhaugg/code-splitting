@@ -1,0 +1,10 @@
+.about {
+  background-color: #000117;
+  min-height: calc(100vh - var(--header-size));
+  min-width: 100vw;
+}
+
+.about__text {
+  color: white;
+  padding: 1rem;
+}

@@ -1,0 +1,5 @@
+.home {
+  background-color: #ffe6ff;
+  min-height: calc(100vh - var(--header-size));
+  min-width: 100vw;
+}
