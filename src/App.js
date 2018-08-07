@@ -30,7 +30,7 @@ const About = Loadable({
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/code-splitting">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />
