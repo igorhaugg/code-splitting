@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import FacebookLogo from './images/facebook.png';
 import InstagramLogo from './images/instagram.png';
 import TwitterLogo from './images/twitter.png';
+import CodepenLogo from './images/codepen.png';
 
 import './Header.css';
 
@@ -34,6 +35,9 @@ const Header = () => {
           </a>
           <a href="https://twitter.com/" className="header__icon">
             <img src={TwitterLogo} alt="Twitter logo" />
+          </a>
+          <a href="https://codepen.io" className="header__icon">
+            <img src={CodepenLogo} alt="Codepen logo" />
           </a>
         </div>
       </nav>
