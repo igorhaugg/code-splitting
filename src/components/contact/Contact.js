@@ -1,14 +1,13 @@
 import React from 'react';
 
-import Header from '../header/Header';
+import Layout from '../layout/Layout';
 
 import './Contact.css';
 
 const Contact = () => (
-  <main>
-    <Header />
+  <Layout>
     <section className='contact' />
-  </main>
+  </Layout>
 );
 
 export default Contact;

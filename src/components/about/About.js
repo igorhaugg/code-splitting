@@ -1,12 +1,11 @@
 import React from 'react';
 
-import Header from '../header/Header';
+import Layout from '../layout/Layout';
 
 import './About.css';
 
 const About = () => (
-  <main>
-    <Header />
+  <Layout>
     <section className='about'>
       <p className='about__text'>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aspernatur cumque vero, obcaecati exercitationem laborum. Placeat aspernatur tenetur
@@ -36,7 +35,7 @@ const About = () => (
         obcaecati officia quisquam. Ipsa placeat quam delectus doloribus, quae commodi voluptatem ducimus ex.
       </p>
     </section>
-  </main>
+  </Layout>
 );
 
 export default About;
