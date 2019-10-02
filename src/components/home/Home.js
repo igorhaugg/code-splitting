@@ -1,14 +1,13 @@
 import React from 'react';
 
-import Header from '../header/Header';
+import Layout from '../layout/Layout';
 
 import './Home.css';
 
 const Home = () => (
-  <main>
-    <Header />
+  <Layout>
     <section className='home' />
-  </main>
+  </Layout>
 );
 
 export default Home;
