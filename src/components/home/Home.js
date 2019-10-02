@@ -4,13 +4,11 @@ import Header from '../header/Header';
 
 import './Home.css';
 
-const Home = () => {
-  return (
-    <main>
-      <Header />
-      <section className="home" />
-    </main>
-  );
-};
+const Home = () => (
+  <main>
+    <Header />
+    <section className='home' />
+  </main>
+);
 
 export default Home;
