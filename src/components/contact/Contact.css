@@ -1,5 +1,30 @@
 .contact {
-  background-color: #007472;
   min-height: calc(100vh - var(--header-size));
   min-width: 100vw;
+}
+
+.contact form {
+  margin: 0 8px;
+  max-width: 240px;
+}
+
+.contact .contact__input-group {
+  display: flex;
+  flex-direction: column;
+  margin: 8px;
+}
+
+.contact input {
+  border: 1px solid #8e7f7f;
+  padding: 8px;
+  border-radius: 4px;
+}
+
+.contact button {
+  padding: 8px 12px;
+  border-radius: 4px;
+  margin: inherit;
+  background: #7846aa;
+  color: white;
+  cursor: pointer;
 }
